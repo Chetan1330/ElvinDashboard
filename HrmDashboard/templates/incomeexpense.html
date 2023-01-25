@@ -1,0 +1,1300 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en">
+<html lang="en" dir="">
+<meta name="csrf-token" content="BmHFd8EFal99TYUcyA8WKecWZJ28wmoNtGFx4Ji3">
+
+<head>
+    <title>
+        HRMVA SaaS
+        -     Manage Income Vs Expense
+</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta name="csrf-token" content="BmHFd8EFal99TYUcyA8WKecWZJ28wmoNtGFx4Ji3">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Dashboard Template Description" />
+    <meta name="keywords" content="Dashboard Template" />
+    <meta name="author" content="Rajodiya Infotech" />
+
+
+    <!-- Favicon icon -->
+    
+    <link rel="icon"
+    href="https://demo.rajodiya.com/hrmgo-saas/storage/uploads/logo//2_favicon.png"
+    type="image/png">
+
+    <!-- Calander -->
+    <link rel="stylesheet" href="https://demo.rajodiya.com/hrmgo-saas/assets/css/plugins/main.css">
+
+    <link rel="stylesheet" href="https://demo.rajodiya.com/hrmgo-saas/assets/css/plugins/datepicker-bs5.min.css">
+    <link rel="stylesheet" href="https://demo.rajodiya.com/hrmgo-saas/assets/css/plugins/style.css">
+    <!-- font css -->
+    <link rel="stylesheet" href="/static/assets/css/plugins/bootstrap-switch-button.min.css">
+    <link rel="stylesheet" href="/static/assets/fonts/tabler-icons.min.css">
+    <link rel="stylesheet" href="/static/assets/fonts/feather.css">
+    <link rel="stylesheet" href="/static/assets/fonts/fontawesome.css">
+    <link rel="stylesheet" href="/static/assets/fonts/material.css"> 
+    <link rel="stylesheet" href="/static/assets/css/plugins/bootstrap-slider.min.css">
+
+    <!-- vendor css -->
+    
+    <link rel="stylesheet" href="/static/assets/css/customizer.css">
+    <link rel="stylesheet" href="/static/assets/css/custom.css">
+    <link rel="stylesheet" href="/static/assets/css/style.css" id="main-style-link">
+    <link rel='stylesheet' href='/static/assets/css/nprogress.css' />
+    
+   
+
+</head>
+
+<body class="theme-3">
+
+    <div class="loader-bg">
+        <div class="loader-track">
+            <div class="loader-fill"></div>
+        </div>
+    </div>
+
+    <nav class="dash-sidebar light-sidebar transprent-bg">
+    <div class="navbar-wrapper">
+        <div class="m-header main-logo">
+            <a href="{% url 'home' %}" class="b-brand">
+                <!-- ========   change your logo hear   ============ -->
+                
+                <h1>HRMVA</h1>
+            </a>
+        </div>
+
+        <div class="navbar-content">
+            <ul class="dash-navbar">
+
+                <!-- dashboard-->
+                                                <li
+                        class="dash-item dash-hasmenu  ">
+                        <a href="#" class="dash-link"><span class="dash-micon"><i
+                                    class="ti ti-home"></i></span><span
+                                class="dash-mtext">Dashboard</span><span class="dash-arrow"><i
+                                    data-feather="chevron-right"></i></span></a>
+                        <ul class="dash-submenu ">
+                            <li class="dash-item  active dash-trigger">
+                                <a class="dash-link"
+                                    href="{% url 'home' %}">Overview</a>
+                            </li>
+                          
+                                                <li class="dash-item dash-hasmenu">
+                        <a href="#!" class="dash-link"><span class=""><i
+                                    class=""></i></span><span
+                                class="dash-mtext">Report</span><span
+                                class="dash-arrow"><i data-feather="chevron-right"></i></span></a>
+                        <ul class="dash-submenu">
+                                                            <li class="dash-item">
+                                    <a class="dash-link"
+                                        href="https://demo.rajodiya.com/hrmgo-saas/report/income-expense">Income Vs Expense</a>
+                                </li>
+
+                                <li class="dash-item">
+                                    <a class="dash-link"
+                                        href="https://demo.rajodiya.com/hrmgo-saas/report/monthly/attendance">Monthly Attendance</a>
+                                </li>
+
+                                <li class="dash-item">
+                                    <a class="dash-link"
+                                        href="https://demo.rajodiya.com/hrmgo-saas/report/leave">Leave</a>
+                                </li>
+
+
+                                <li class="dash-item">
+                                    <a class="dash-link"
+                                        href="https://demo.rajodiya.com/hrmgo-saas/report/account-statement">Account Statement</a>
+                                </li>
+
+
+                                <li class="dash-item">
+                                    <a class="dash-link"
+                                        href="https://demo.rajodiya.com/hrmgo-saas/report/payroll">Payroll</a>
+                                </li>
+
+
+                                <li class="dash-item">
+                                    <a class="dash-link"
+                                        href="https://demo.rajodiya.com/hrmgo-saas/report/timesheet">Timesheet</a>
+                                </li>
+                            
+
+                        </ul>
+                    </li>
+                                          
+
+                        </ul>
+                    </li>
+                                    <!--dashboard-->
+
+                <!-- user-->
+                                                            <li class="dash-item dash-hasmenu">
+                            <a href="#!" class="dash-link"><span class="dash-micon"><i
+                                        class="ti ti-users"></i></span><span
+                                    class="dash-mtext">Staff</span><span class="dash-arrow"><i
+                                        data-feather="chevron-right"></i></span></a>
+                            <ul class="dash-submenu">
+                                                                    <li class="dash-item">
+                                        <a class="dash-link"
+                                            href="https://demo.rajodiya.com/hrmgo-saas/user">User</a>
+                                    </li>
+                                                                                                    <li class="dash-item">
+                                        <a class="dash-link"
+                                            href="https://demo.rajodiya.com/hrmgo-saas/roles">Role</a>
+                                    </li>
+                                                                                                    <li class="dash-item">
+                                        <a class="dash-link"
+                                            href="https://demo.rajodiya.com/hrmgo-saas/employee-profile">Employee Profile</a>
+                                    </li>
+                                                                                                    <li class="dash-item">
+                                        <a class="dash-link"
+                                            href="https://demo.rajodiya.com/hrmgo-saas/lastlogin">Last Login</a>
+                                    </li>
+                                
+                            </ul>
+                        </li>
+                                                    <!-- user-->
+
+                <!-- employee-->
+                                                            <li class="dash-item ">
+                            <a href="https://demo.rajodiya.com/hrmgo-saas/employee" class="dash-link"><span
+                                    class="dash-micon"><i class="ti ti-user"></i></span><span
+                                    class="dash-mtext">Employee</span></a>
+                        </li>
+                                                    <!-- employee-->
+
+                <!-- payroll-->
+                                    <li
+                        class="dash-item dash-hasmenu  ">
+                        <a href="#!" class="dash-link"><span class="dash-micon"><i
+                                    class="ti ti-receipt"></i></span><span
+                                class="dash-mtext">Payroll</span><span class="dash-arrow"><i
+                                    data-feather="chevron-right"></i></span></a>
+                        <ul class="dash-submenu ">
+                            <li class="dash-item -">
+                                <a class="dash-link"
+                                    href="https://demo.rajodiya.com/hrmgo-saas/setsalary">Set Salary</a>
+                            </li>
+                            <li class="dash-item">
+                                <a class="dash-link"
+                                    href="https://demo.rajodiya.com/hrmgo-saas/payslip">Payslip</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                                <!-- payroll-->
+
+                
+                <!-- timesheet-->
+                                    <li class="dash-item dash-hasmenu">
+                        <a href="#!" class="dash-link"><span class="dash-micon"><i
+                                    class="ti ti-clock"></i></span><span
+                                class="dash-mtext">Timesheet</span><span class="dash-arrow"><i
+                                    data-feather="chevron-right"></i></span></a>
+                        <ul class="dash-submenu">
+                                                            <li class="dash-item">
+                                    <a class="dash-link"
+                                        href="https://demo.rajodiya.com/hrmgo-saas/timesheet">Timesheet</a>
+                                </li>
+                                                                                        <li class="dash-item">
+                                    <a class="dash-link"
+                                        href="https://demo.rajodiya.com/hrmgo-saas/leave">Manage Leave</a>
+                                </li>
+                                                                                        <li class="dash-item dash-hasmenu">
+                                    <a href="#!" class="dash-link"><span
+                                            class="dash-mtext">Attendance</span><span
+                                            class="dash-arrow"><i data-feather="chevron-right"></i></span></a>
+                                    <ul class="dash-submenu">
+                                        <li class="dash-item">
+                                            <a class="dash-link"
+                                                href="https://demo.rajodiya.com/hrmgo-saas/attendanceemployee">Marked Attendance</a>
+                                        </li>
+                                                                                    <li class="dash-item">
+                                                <a class="dash-link"
+                                                    href="https://demo.rajodiya.com/hrmgo-saas/attendanceemployee/bulkattendance">Bulk Attendance</a>
+                                            </li>
+                                                                            </ul>
+                                </li>
+                                                    </ul>
+                    </li>
+                                <!--timesheet-->
+
+                <!-- performance-->
+                                    <li class="dash-item dash-hasmenu">
+                        <a href="#!" class="dash-link"><span class="dash-micon"><i
+                                    class="ti ti-3d-cube-sphere"></i></span><span
+                                class="dash-mtext">Performance</span><span class="dash-arrow"><i
+                                    data-feather="chevron-right"></i></span></a>
+                        <ul class="dash-submenu">
+                                                            <li class="dash-item">
+                                    <a class="dash-link"
+                                        href="https://demo.rajodiya.com/hrmgo-saas/indicator">Indicator</a>
+                                </li>
+                            
+                                                            <li class="dash-item">
+                                    <a class="dash-link"
+                                        href="https://demo.rajodiya.com/hrmgo-saas/appraisal">Appraisal</a>
+                                </li>
+                            
+                                                            <li class="dash-item">
+                                    <a class="dash-link"
+                                        href="https://demo.rajodiya.com/hrmgo-saas/goaltracking">Goal Tracking</a>
+                                </li>
+                                                    </ul>
+                    </li>
+                                <!--performance-->
+
+                <!--fianance-->
+                                    <li class="dash-item dash-hasmenu">
+                        <a href="#!" class="dash-link"><span class="dash-micon"><i
+                                    class="ti ti-wallet"></i></span><span
+                                class="dash-mtext">Finance</span><span class="dash-arrow"><i
+                                    data-feather="chevron-right"></i></span></a>
+                        <ul class="dash-submenu">
+                                                            <li class="dash-item">
+                                    <a class="dash-link"
+                                        href="https://demo.rajodiya.com/hrmgo-saas/accountlist">Account List</a>
+                                </li>
+                                                                                        <li class="dash-item">
+                                    <a class="dash-link"
+                                        href="https://demo.rajodiya.com/hrmgo-saas/accountbalance">Account Balance</a>
+                                </li>
+                                                                                        <li class="dash-item">
+                                    <a class="dash-link"
+                                        href="https://demo.rajodiya.com/hrmgo-saas/payees">Payees</a>
+                                </li>
+                            
+                                                            <li class="dash-item">
+                                    <a class="dash-link"
+                                        href="https://demo.rajodiya.com/hrmgo-saas/payer">Payers</a>
+                                </li>
+                            
+                                                            <li class="dash-item">
+                                    <a class="dash-link"
+                                        href="https://demo.rajodiya.com/hrmgo-saas/deposit">Deposit</a>
+                                </li>
+                            
+                                                            <li class="dash-item">
+                                    <a class="dash-link"
+                                        href="https://demo.rajodiya.com/hrmgo-saas/expense">Expense</a>
+                                </li>
+                            
+                                                            <li class="dash-item">
+                                    <a class="dash-link"
+                                        href="https://demo.rajodiya.com/hrmgo-saas/transferbalance">Transfer Balance</a>
+                                </li>
+                                                    </ul>
+                    </li>
+                                <!-- fianance-->
+
+                <!--trainning-->
+                                    <li
+                        class="dash-item dash-hasmenu ">
+                        <a href="#!" class="dash-link "><span class="dash-micon"><i
+                                    class="ti ti-school"></i></span><span
+                                class="dash-mtext">Training</span><span class="dash-arrow"><i
+                                    data-feather="chevron-right"></i></span></a>
+                        <ul class="dash-submenu">
+                                                            <li class="dash-item ">
+                                    <a class="dash-link"
+                                        href="https://demo.rajodiya.com/hrmgo-saas/training">Training List</a>
+                                </li>
+                            
+                                                            <li class="dash-item ">
+                                    <a class="dash-link"
+                                        href="https://demo.rajodiya.com/hrmgo-saas/trainer">Trainer</a>
+                                </li>
+                                                    </ul>
+                    </li>
+                
+                <!-- tranning-->
+
+
+                <!-- HR-->
+                                    <li
+                        class="dash-item dash-hasmenu ">
+                        <a href="#!" class="dash-link"><span class="dash-micon"><i
+                                    class="ti ti-user-plus"></i></span><span
+                                class="dash-mtext">HR Admin Setup</span><span class="dash-arrow"><i
+                                    data-feather="chevron-right"></i></span></a>
+                        <ul class="dash-submenu">
+                            <li class="dash-item ">
+                                <a class="dash-link" href="https://demo.rajodiya.com/hrmgo-saas/award">Award</a>
+                            </li>
+                            <li class="dash-item">
+                                <a class="dash-link"
+                                    href="https://demo.rajodiya.com/hrmgo-saas/transfer">Transfer</a>
+                            </li>
+                            <li class="dash-item">
+                                <a class="dash-link"
+                                    href="https://demo.rajodiya.com/hrmgo-saas/resignation">Resignation</a>
+                            </li>
+                            <li class="dash-item">
+                                <a class="dash-link"
+                                    href="https://demo.rajodiya.com/hrmgo-saas/travel">Trip</a>
+                            </li>
+                            <li class="dash-item">
+                                <a class="dash-link"
+                                    href="https://demo.rajodiya.com/hrmgo-saas/promotion">Promotion</a>
+                            </li>
+                            <li class="dash-item">
+                                <a class="dash-link"
+                                    href="https://demo.rajodiya.com/hrmgo-saas/complaint">Complaints</a>
+                            </li>
+                            <li class="dash-item">
+                                <a class="dash-link"
+                                    href="https://demo.rajodiya.com/hrmgo-saas/warning">Warning</a>
+                            </li>
+                            <li class="dash-item">
+                                <a class="dash-link"
+                                    href="https://demo.rajodiya.com/hrmgo-saas/termination">Termination</a>
+                            </li>
+                            <li class="dash-item">
+                                <a class="dash-link"
+                                    href="https://demo.rajodiya.com/hrmgo-saas/announcement">Announcement</a>
+                            </li>
+                            <li class="dash-item ">
+                                <a class="dash-link"
+                                    href="https://demo.rajodiya.com/hrmgo-saas/holiday">Holidays</a>
+                            </li>
+                        </ul>
+                    </li>
+                                <!-- HR-->
+
+                 <!-- recruitment-->
+                                  <li
+                     class="dash-item dash-hasmenu   ">
+                     <a href="#!" class="dash-link"><span class="dash-micon"><i
+                                 class="ti ti-license"></i></span><span
+                             class="dash-mtext">Recruitment</span><span
+                             class="dash-arrow"><i data-feather="chevron-right"></i></span></a>
+                     <ul class="dash-submenu">
+                                                      <li class="dash-item -">
+                                 <a class="dash-link" href="https://demo.rajodiya.com/hrmgo-saas/job">Jobs</a>
+                             </li>
+                                                                                  <li class="dash-item -">
+                                    <a class="dash-link" href="https://demo.rajodiya.com/hrmgo-saas/job/create">Job Create </a>
+                                </li>
+                                                                              <li class="dash-item ">
+                            <a class="dash-link" href="https://demo.rajodiya.com/hrmgo-saas/job-application">Job Application</a>
+                        </li>
+                                                  
+                         <li class="dash-item ">
+                            <a class="dash-link" href="https://demo.rajodiya.com/hrmgo-saas/candidates-job-applications">Job Candidate</a>
+                        </li>
+                         
+                                                      <li class="dash-item">
+                                 <a class="dash-link"
+                                     href="https://demo.rajodiya.com/hrmgo-saas/job-onboard">Job On-Boarding</a>
+                             </li>
+                         
+                                                      <li class="dash-item">
+                                 <a class="dash-link"
+                                     href="https://demo.rajodiya.com/hrmgo-saas/custom-question">Custom Question</a>
+                             </li>
+                         
+                                                      <li class="dash-item">
+                                 <a class="dash-link"
+                                     href="https://demo.rajodiya.com/hrmgo-saas/interview-schedule">Interview Schedule</a>
+                             </li>
+                         
+                                                      <li class="dash-item">
+                                 <a class="dash-link"
+                                     href="https://demo.rajodiya.com/hrmgo-saas/career/2/en"
+                                     target="_blank">Career</a>
+                             </li>
+                                              </ul>
+                 </li>
+                          <!-- recruitment-->
+             <!--contract-->
+                          <li class="dash-item ">
+                 <a href="https://demo.rajodiya.com/hrmgo-saas/contract" class="dash-link"><span class="dash-micon"><i class="ti ti-device-floppy"></i></span><span class="dash-mtext">Contracts</span></a>
+             </li>
+                         
+
+                <!-- ticket-->
+                                    <li class="dash-item ">
+                        <a href="https://demo.rajodiya.com/hrmgo-saas/ticket" class="dash-link"><span class="dash-micon"><i
+                                    class="ti ti-ticket"></i></span><span
+                                class="dash-mtext">Ticket</span></a>
+                    </li>
+                
+                <!-- Event-->
+                                    <li class="dash-item">
+                        <a href="https://demo.rajodiya.com/hrmgo-saas/event" class="dash-link"><span class="dash-micon"><i
+                                    class="ti ti-calendar-event"></i></span><span
+                                class="dash-mtext">Event</span></a>
+                    </li>
+                
+
+                <!--meeting-->
+                                    <li class="dash-item ">
+                        <a href="https://demo.rajodiya.com/hrmgo-saas/meeting" class="dash-link"><span class="dash-micon"><i
+                                    class="ti ti-calendar-time"></i></span><span
+                                class="dash-mtext">Meeting</span></a>
+                    </li>
+                
+
+                <!-- Zoom meeting-->
+                                    <li class="dash-item ">
+                        <a href="https://demo.rajodiya.com/hrmgo-saas/zoom-meeting" class="dash-link"><span
+                                class="dash-micon"><i class="ti ti-video"></i></span><span
+                                class="dash-mtext">Zoom Meeting</span></a>
+                    </li>
+                
+                <!-- assets-->
+                                    <li class="dash-item">
+                        <a href="https://demo.rajodiya.com/hrmgo-saas/account-assets" class="dash-link"><span
+                                class="dash-micon"><i class="ti ti-medical-cross"></i></span><span
+                                class="dash-mtext">Assets</span></a>
+                    </li>
+                
+
+                <!-- document-->
+                                    <li class="dash-item">
+                        <a href="https://demo.rajodiya.com/hrmgo-saas/document-upload" class="dash-link"><span
+                                class="dash-micon"><i class="ti ti-file"></i></span><span
+                                class="dash-mtext">Document</span></a>
+                    </li>
+                
+                <!--company policy-->
+
+
+
+                                    <li class="dash-item">
+                        <a href="https://demo.rajodiya.com/hrmgo-saas/company-policy" class="dash-link"><span
+                                class="dash-micon"><i class="ti ti-pray"></i></span><span
+                                class="dash-mtext">Company Policy</span></a>
+                    </li>
+                                <!--chats-->
+                                    <li class="dash-item">
+                        <a href="https://demo.rajodiya.com/hrmgo-saas/chats" class="dash-link"><span class="dash-micon"><i
+                                    class="ti ti-messages"></i></span><span
+                                class="dash-mtext">Messenger</span></a>
+                    </li>
+                                
+                                
+
+                                               
+               
+                                <!--report-->
+                <!--                     <li class="dash-item dash-hasmenu">
+                        <a href="#!" class="dash-link"><span class="dash-micon"><i
+                                    class="ti ti-list"></i></span><span
+                                class="dash-mtext">Report</span><span
+                                class="dash-arrow"><i data-feather="chevron-right"></i></span></a>
+                        <ul class="dash-submenu">
+                                                            <li class="dash-item">
+                                    <a class="dash-link"
+                                        href="https://demo.rajodiya.com/hrmgo-saas/report/income-expense">Income Vs Expense</a>
+                                </li>
+
+                                <li class="dash-item">
+                                    <a class="dash-link"
+                                        href="https://demo.rajodiya.com/hrmgo-saas/report/monthly/attendance">Monthly Attendance</a>
+                                </li>
+
+                                <li class="dash-item">
+                                    <a class="dash-link"
+                                        href="https://demo.rajodiya.com/hrmgo-saas/report/leave">Leave</a>
+                                </li>
+
+
+                                <li class="dash-item">
+                                    <a class="dash-link"
+                                        href="https://demo.rajodiya.com/hrmgo-saas/report/account-statement">Account Statement</a>
+                                </li>
+
+
+                                <li class="dash-item">
+                                    <a class="dash-link"
+                                        href="https://demo.rajodiya.com/hrmgo-saas/report/payroll">Payroll</a>
+                                </li>
+
+
+                                <li class="dash-item">
+                                    <a class="dash-link"
+                                        href="https://demo.rajodiya.com/hrmgo-saas/report/timesheet">Timesheet</a>
+                                </li>
+                            
+
+                        </ul>
+                    </li>
+                 -->
+
+
+             
+
+<!--constant-->
+<li class="dash-item dash-hasmenu">
+    <a href="https://demo.rajodiya.com/hrmgo-saas/branch" class="dash-link"><span class="dash-micon"><i
+                class="ti ti-table"></i></span><span
+            class="dash-mtext">HRM System Setup</span></a>
+    </li>
+    <!-- <ul class="dash-submenu">
+                    <li class="dash-item ">
+                <a class="dash-link"
+                    href="https://demo.rajodiya.com/hrmgo-saas/branch">Branch</a>
+            </li>
+                            <li class="dash-item ">
+                <a class="dash-link"
+                    href="https://demo.rajodiya.com/hrmgo-saas/department">Department</a>
+            </li>
+                            <li class="dash-item ">
+                <a class="dash-link"
+                    href="https://demo.rajodiya.com/hrmgo-saas/designation">Designation</a>
+            </li>
+                            <li class="dash-item ">
+                <a class="dash-link"
+                    href="https://demo.rajodiya.com/hrmgo-saas/document">Document Type</a>
+            </li>
+        
+                    <li class="dash-item ">
+                <a class="dash-link"
+                    href="https://demo.rajodiya.com/hrmgo-saas/awardtype">Award Type</a>
+            </li>
+                                    <li class="dash-item ">
+                <a class="dash-link"
+                    href="https://demo.rajodiya.com/hrmgo-saas/paysliptype">Payslip Type</a>
+            </li>
+                            <li
+                class="dash-item ">
+                <a class="dash-link"
+                    href="https://demo.rajodiya.com/hrmgo-saas/allowanceoption">Allowance Option</a>
+            </li>
+                            <li class="dash-item ">
+                <a class="dash-link"
+                    href="https://demo.rajodiya.com/hrmgo-saas/loanoption">Loan Option</a>
+            </li>
+                            <li
+                class="dash-item ">
+                <a class="dash-link"
+                    href="https://demo.rajodiya.com/hrmgo-saas/deductionoption">Deduction Option</a>
+            </li>
+                            <li class="dash-item ">
+                <a class="dash-link"
+                    href="https://demo.rajodiya.com/hrmgo-saas/expensetype">Expense Type</a>
+            </li>
+                            <li class="dash-item ">
+                <a class="dash-link"
+                    href="https://demo.rajodiya.com/hrmgo-saas/incometype">Income Type</a>
+            </li>
+                            <li class="dash-item ">
+                <a class="dash-link"
+                    href="https://demo.rajodiya.com/hrmgo-saas/paymenttype">Payment Type</a>
+            </li>
+                            <li class="dash-item ">
+                <a class="dash-link"
+                    href="https://demo.rajodiya.com/hrmgo-saas/leavetype">Leave Type</a>
+            </li>
+                            <li
+                class="dash-item ">
+                <a class="dash-link"
+                    href="https://demo.rajodiya.com/hrmgo-saas/terminationtype">Termination Type</a>
+            </li>
+                            <li class="dash-item ">
+                <a class="dash-link"
+                    href="https://demo.rajodiya.com/hrmgo-saas/goaltype">Goal Type</a>
+            </li>
+                            <li class="dash-item ">
+                <a class="dash-link"
+                    href="https://demo.rajodiya.com/hrmgo-saas/trainingtype">Training Type</a>
+            </li>
+        
+                                    <li
+                    class="dash-item ">
+                    <a class="dash-link"
+                        href="https://demo.rajodiya.com/hrmgo-saas/job-category">Job Category</a>
+                </li>
+                    
+                                    <li
+                    class="dash-item ">
+                    <a class="dash-link"
+                        href="https://demo.rajodiya.com/hrmgo-saas/job-stage">Job Stage</a>
+                </li>
+                    
+        <li
+            class="dash-item ">
+            <a class="dash-link"
+                href="https://demo.rajodiya.com/hrmgo-saas/performanceType">Performance Type</a>
+        </li>
+
+                    <li class="dash-item ">
+
+                <a class="dash-link"
+                    href="https://demo.rajodiya.com/hrmgo-saas/competencies">Competencies</a>
+            </li>
+            </ul> -->
+<!--constant-->
+
+
+             <!--------------------- Start System Setup ----------------------------------->
+
+             
+                              <li class="dash-item dash-hasmenu">
+                     <a href="#!" class="dash-link ">
+                         <span class="dash-micon"><i class="ti ti-settings"></i></span><span class="dash-mtext">System Setup</span><span class="dash-arrow">
+                                 <i data-feather="chevron-right"></i></span>
+                     </a>
+                     <ul class="dash-submenu">
+                                                      <li class="dash-item dash-hasmenu ">
+                                 <a href="https://demo.rajodiya.com/hrmgo-saas/settings" class="dash-link">System Settings</a>
+                             </li>
+                                                                               <li class="dash-item">
+                                 <a href="https://demo.rajodiya.com/hrmgo-saas/plans" class="dash-link">Setup Subscription Plan</a>
+                             </li>
+                            
+                                                                               <li class="dash-item ">
+                                 <a href="https://demo.rajodiya.com/hrmgo-saas/orders" class="dash-link">Order</a>
+                             </li>
+                                              </ul>
+                 </li>
+                      
+         <!--------------------- End System Setup ----------------------------------->
+
+                
+</ul>
+
+</div>
+</div>
+</nav>
+
+
+    <header class="dash-header  transprent-bg">
+    <div class="header-wrapper">
+        <div class="me-auto dash-mob-drp">
+            <ul class="list-unstyled">
+                <li class="dash-h-item mob-hamburger">
+                    <a href="#!" class="dash-head-link" id="mobile-collapse">
+                        <div class="hamburger hamburger--arrowturn">
+                            <div class="hamburger-box">
+                                <div class="hamburger-inner"></div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="dropdown dash-h-item drp-company">
+                    <a class="dash-head-link dropdown-toggle arrow-none me-0" data-bs-toggle="dropdown" href="#"
+                        role="button" aria-haspopup="false" aria-expanded="false">
+                        <span class="theme-avtar">
+                            <img alt="#"
+                                src="https://demo.rajodiya.com/hrmgo-saas/storage/uploads/avatar//owner.jpg"
+                                class="img-fluid rounded-circle" style="width: 100%">
+                        </span>
+                        <span class="hide-mob ms-2"> Rajodiya Infotech
+                            <i class="ti ti-chevron-down drp-arrow nocolor hide-mob"></i>
+                    </a>
+                    <div class="dropdown-menu dash-h-dropdown">
+                        <a href="#" class="dropdown-item">
+                            <i class="ti ti-user"></i>
+                            <span>My Profile</span>
+                        </a>
+
+                        <a href="#" class="dropdown-item"
+                            onclick="event.preventDefault();document.getElementById('logout-form').submit();">
+                            <i class="ti ti-power"></i>
+                            <span>Logout</span>
+                        </a>
+                        <!-- <form id="logout-form" action="#" method="POST" style="display: none;">
+                            <input type="hidden" name="_token" value="BmHFd8EFal99TYUcyA8WKecWZJ28wmoNtGFx4Ji3"></form> -->
+                    </div>
+                </li>
+
+
+            </ul>
+        </div>
+        <div class="ms-auto">
+            <ul class="list-unstyled">
+
+                
+                                    <li class="dash-h-item">
+                        <a class="dash-head-link me-0" href="https://demo.rajodiya.com/hrmgo-saas/chats">
+                            <i class="ti ti-message-circle"></i>
+                            <span
+                                class="bg-danger dash-h-badge message-counter custom_messanger_counter">0<span
+                                    class="sr-only"></span>
+                        </a>
+                    </li>
+                
+                
+                
+                                     <li class="dropdown dash-h-item drp-notification">
+                        <a class="dash-head-link dropdown-toggle arrow-none me-0" data-bs-toggle="dropdown" href="#" role="button"aria-haspopup="false" aria-expanded="false">
+                          <i class="ti ti-message-2"></i>
+                          <span class="bg-danger dash-h-badge message-counter custom_messanger_counter">0<span class="sr-only"></span>
+                        </a>
+                        <div class="dropdown-menu dash-h-dropdown dropdown-menu-end">
+                            <div class="noti-header">
+                                <h5 class="m-0">Messages</h5>
+                                <a href="#" class="dash-head-link mark_all_as_read_message">Clear All</a>
+                            </div>
+                            <div class="noti-body dropdown-list-message-msg">
+								<table class="count-listOfContacts">
+
+                                                                                                                                                                                                     </table>
+                            </div>
+                            <div class="noti-footer">
+                                <div class="d-grid">
+                                    <a href="https://demo.rajodiya.com/hrmgo-saas/chats" class="btn dash-head-link justify-content-center text-primary mx-0">View all</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                
+                
+                
+                <li class="dropdown dash-h-item drp-language">
+                    <a class="dash-head-link dropdown-toggle arrow-none me-0" data-bs-toggle="dropdown" href="#"
+                        role="button" aria-haspopup="false" aria-expanded="false" id="dropdownLanguage">
+                        <i class="ti ti-world nocolor"></i>
+                        <span class="drp-text hide-mob">EN</span>
+                        <i class="ti ti-chevron-down drp-arrow nocolor"></i>
+                    </a>
+                    <div class="dropdown-menu dash-h-dropdown dropdown-menu-end" aria-labelledby="dropdownLanguage">
+                                                    <a href="https://demo.rajodiya.com/hrmgo-saas/change-language/ar"
+                                class="dropdown-item ">AR</a>
+                                                    <a href="https://demo.rajodiya.com/hrmgo-saas/change-language/da"
+                                class="dropdown-item ">DA</a>
+                                                    <a href="https://demo.rajodiya.com/hrmgo-saas/change-language/de"
+                                class="dropdown-item ">DE</a>
+                                                    <a href="https://demo.rajodiya.com/hrmgo-saas/change-language/en"
+                                class="dropdown-item ">EN</a>
+                                                    <a href="https://demo.rajodiya.com/hrmgo-saas/change-language/es"
+                                class="dropdown-item ">ES</a>
+                                                    <a href="https://demo.rajodiya.com/hrmgo-saas/change-language/fr"
+                                class="dropdown-item ">FR</a>
+                                                    <a href="https://demo.rajodiya.com/hrmgo-saas/change-language/id"
+                                class="dropdown-item ">ID</a>
+                                                    <a href="https://demo.rajodiya.com/hrmgo-saas/change-language/it"
+                                class="dropdown-item ">IT</a>
+                                                    <a href="https://demo.rajodiya.com/hrmgo-saas/change-language/ja"
+                                class="dropdown-item ">JA</a>
+                                                    <a href="https://demo.rajodiya.com/hrmgo-saas/change-language/nl"
+                                class="dropdown-item ">NL</a>
+                                                    <a href="https://demo.rajodiya.com/hrmgo-saas/change-language/pl"
+                                class="dropdown-item ">PL</a>
+                                                    <a href="https://demo.rajodiya.com/hrmgo-saas/change-language/pt"
+                                class="dropdown-item ">PT</a>
+                                                    <a href="https://demo.rajodiya.com/hrmgo-saas/change-language/ru"
+                                class="dropdown-item ">RU</a>
+                                                                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</header>
+
+
+
+
+    <!-- [ Main Content ] start -->
+    <section class="dash-container">
+        <div class="dash-content">
+            <!-- [ breadcrumb ] start -->
+
+
+            <div class="page-header">
+                <div class="page-block">
+                    <div class="row align-items-center">
+                        <div class="col-auto">
+                            <div class="page-header-title">
+                                <h4 class="m-b-10">
+                                        Manage Income Vs Expense
+                                </h4>
+                            </div>
+                            <ul class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="https://demo.rajodiya.com/hrmgo-saas/home">Home</a></li>
+    <li class="breadcrumb-item">Manage Income Vs Expense Report</li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <div class="float-end " >
+
+                                    <!-- <a class="btn btn-sm btn-primary collapsed" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
+        aria-expanded="false" aria-controls="multiCollapseExample1" data-bs-toggle="tooltip" title="Filter">
+        <i class="ti ti-filter"></i>
+    </a> -->
+
+    <a href="#" onclick="saveAsPDF()" class="btn btn-sm btn-primary" data-bs-toggle="tooltip" title=""
+        data-bs-original-title="Download">
+        <span class="btn-inner--icon"><i class="ti ti-file-download text-white-off "></i></span>
+    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                    <div class="col-sm-12 col-lg-12 col-xl-12 col-md-12">
+        <div class=" mt-2 " id="" style="">
+            <div class="card">
+                <div class="card-body">
+                    <form method="GET" action="https://demo.rajodiya.com/hrmgo-saas/report/income-expense" accept-charset="UTF-8" id="report_income_expense">
+                    <div class="d-flex align-items-center justify-content-end">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mx-2">
+                            <div class="btn-box">
+
+                                <label for="start_month" class="form-label">Start Month</label>
+                                <input class="month-btn form-control d_filter " autocomplete="off" placeholder="Select start month" name="start_month" type="text" value="" id="start_month">
+
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mx-2">
+                            <div class="btn-box">
+
+                                <label for="end_month" class="form-label">End Month</label>
+                                <input class="month-btn form-control d_filter" autocomplete="off" placeholder="Select end month" name="end_month" type="text" value="" id="end_month">
+
+                            </div>
+                        </div>
+
+                        <div class="col-auto float-end ms-2 mt-4">
+                            <a href="#" class="btn btn-sm btn-primary"
+                                onclick="document.getElementById('report_income_expense').submit(); return false;"
+                                data-bs-toggle="tooltip" title="" data-bs-original-title="apply">
+                                <span class="btn-inner--icon"><i class="ti ti-search"></i></span>
+                            </a>
+                            <a href="https://demo.rajodiya.com/hrmgo-saas/report/income-expense" class="btn btn-sm btn-danger"
+                                data-bs-toggle="tooltip" title="" data-bs-original-title="Reset">
+                                <span class="btn-inner--icon"><i class="ti ti-trash-off text-white-off "></i></span>
+                            </a>
+
+                        </div>
+
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="printableArea">
+
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="card">
+                    <div class="card-body p-3">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <div class="theme-avtar bg-primary">
+                                    <i class="ti ti-file-report"></i>
+                                </div>
+                                <input type="hidden"
+                                    value="Income vs Expense Report of Jan-2023 to Aug-2022"
+                                    id="filename">
+                                <div class="ms-3">
+                                    <h5 class="mb-0">Report</h5>
+                                    <p class="text-muted text-sm mb-0">Income vs Expense Summary</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card">
+                    <div class="card-body p-3">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <div class="theme-avtar bg-secondary">
+                                    <i class="ti ti-calendar-time"></i>
+                                </div>
+                                <div class="ms-3">
+                                    <h5 class="mb-0">Duration</h5>
+                                    <p class="text-muted text-sm mb-0">
+                                        Jan-2023 to Aug-2022</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card">
+                    <div class="card-body p-3">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <div class="theme-avtar bg-primary">
+                                    <i class="ti ti-wallet"></i>
+                                </div>
+                                <div class="ms-3">
+                                    <h5 class="mb-0">Total Income</h5>
+                                    <p class="text-muted text-sm mb-0">$0.00</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card">
+                    <div class="card-body p-3">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <div class="theme-avtar bg-secondary">
+                                    <i class="ti ti-report-money"></i>
+                                </div>
+                                <div class="ms-3">
+                                    <h5 class="mb-0">Total Expense</h5>
+                                    <p class="text-muted text-sm mb-0">$0.00
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-12">
+            <div class="card">
+                <div class=" rounded p-3">
+                    <div id="user-chart"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+            </div>
+
+        </div>
+    </section>
+    <div class="modal fade" id="commonModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="body">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="position-fixed top-0 end-0 p-3" style="z-index: 99999">
+        <div id="liveToast" class="toast text-white  fade" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+                <div class="toast-body"></div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"
+                    aria-label="Close"></button>
+            </div>
+        </div>
+    </div>
+    <!-- [ Main Content ] end -->
+    <footer class="dash-footer">
+        <div class="footer-wrapper">
+            <div class="py-1">
+                <span class="text-muted">Copyright &copy;
+                    HRMGo SaaS
+                    2023</span>
+            </div>
+            
+        </div>
+    </footer>
+
+    <!-- Required Js -->
+    <script src="https://demo.rajodiya.com/hrmgo-saas/js/jquery.min.js"></script>
+    <script src="https://demo.rajodiya.com/hrmgo-saas/js/jquery.form.js"></script>
+
+    <script src="https://demo.rajodiya.com/hrmgo-saas/assets/js/plugins/choices.min.js"></script>
+    <script src="https://demo.rajodiya.com/hrmgo-saas/assets/js/plugins/datepicker-full.min.js"></script>
+    <script src="https://demo.rajodiya.com/hrmgo-saas/assets/js/plugins/popper.min.js"></script>
+    <script src="https://demo.rajodiya.com/hrmgo-saas/assets/js/plugins/perfect-scrollbar.min.js"></script>
+    <script src="https://demo.rajodiya.com/hrmgo-saas/assets/js/plugins/bootstrap.min.js"></script>
+    <script src="https://demo.rajodiya.com/hrmgo-saas/assets/js/plugins/bootstrap-switch-button.min.js"></script>
+    <script src="https://demo.rajodiya.com/hrmgo-saas/assets/js/plugins/feather.min.js"></script>
+    <script src="https://demo.rajodiya.com/hrmgo-saas/assets/js/dash.js"></script>
+    <script src="https://demo.rajodiya.com/hrmgo-saas/assets/js/plugins/sweetalert2.all.min.js"></script>
+    <script src="https://demo.rajodiya.com/hrmgo-saas/assets/js/plugins/simple-datatables.js"></script>  
+
+    <script src="https://demo.rajodiya.com/hrmgo-saas/assets/js/plugins/bootstrap-slider.min.js"></script>
+    <script src="https://demo.rajodiya.com/hrmgo-saas/assets/js/pages/ac-rangeslider.js"></script>
+
+    <script src="https://demo.rajodiya.com/hrmgo-saas/js/custom.js"></script>
+
+    <meta name="url" content="https://demo.rajodiya.com/hrmgo-saas/chats"
+    data-user="2">
+
+    <script src="https://demo.rajodiya.com/hrmgo-saas/js/chatify/autosize.js"></script>
+    <script src='https://unpkg.com/nprogress@0.2.0/nprogress.js'></script>
+
+
+
+    <script> 
+        const dataTable = new simpleDatatables.DataTable("#pc-dt-simple");
+    </script>
+
+<script>
+  feather.replace();
+  var pctoggle = document.querySelector("#pct-toggler");
+  if (pctoggle) {
+    pctoggle.addEventListener("click", function () {
+      if (
+        !document.querySelector(".pct-customizer").classList.contains("active")
+      ) {
+        document.querySelector(".pct-customizer").classList.add("active");
+      } else {
+        document.querySelector(".pct-customizer").classList.remove("active");
+      }
+    });
+  }
+  var themescolors = document.querySelectorAll(".themes-color > a");
+  for (var h = 0; h < themescolors.length; h++) {
+    var c = themescolors[h];
+    c.addEventListener("click", function (event) {
+      var targetElement = event.target;
+      if (targetElement.tagName == "SPAN") {
+        targetElement = targetElement.parentNode;
+      }
+      var temp = targetElement.getAttribute("data-value");
+      removeClassByPrefix(document.querySelector("body"), "theme-");
+      document.querySelector("body").classList.add(temp);
+    });
+  }
+  var custthemebg = document.querySelector("#cust-theme-bg");
+  custthemebg.addEventListener("click", function () {
+    if (custthemebg.checked) {
+      document.querySelector(".dash-sidebar").classList.add("transprent-bg");
+      document
+        .querySelector(".dash-header:not(.dash-mob-header)")
+        .classList.add("transprent-bg");
+    } else {
+      document.querySelector(".dash-sidebar").classList.remove("transprent-bg");
+      document
+        .querySelector(".dash-header:not(.dash-mob-header)")
+        .classList.remove("transprent-bg");
+    }
+  });
+  var custdarklayout = document.querySelector("#cust-darklayout");
+  custdarklayout.addEventListener("click", function () {
+    if (custdarklayout.checked) {
+      document
+        .querySelector("#main-style-link")
+        .setAttribute("href", "https://demo.rajodiya.com/hrmgo-saas/assets/css/style-dark.css");
+        document
+        .querySelector(".m-header > .b-brand > .logo-lg")
+        .setAttribute("src", "https://demo.rajodiya.com/hrmgo-saas/assets/images/logo.svg");
+    } else {
+      document
+        .querySelector("#main-style-link")
+        .setAttribute("href", "https://demo.rajodiya.com/hrmgo-saas/assets/css/style.css");
+        document
+        .querySelector(".m-header > .b-brand > .logo-lg")
+        .setAttribute("src", "https://demo.rajodiya.com/hrmgo-saas/assets/images/logo-dark.svg");
+    }
+  });
+  function removeClassByPrefix(node, prefix) {
+    for (let i = 0; i < node.classList.length; i++) {
+      let value = node.classList[i];
+      if (value.startsWith(prefix)) {
+        node.classList.remove(value);
+      }
+    }
+  }
+</script>
+    <script>
+        $(document).on('click', '.fc-daygrid-event', function(e) {
+            // if (!$(this).hasClass('project')) {
+            e.preventDefault();
+            var event = $(this);
+            var title = $(this).find('.fc-event-title').html();
+            console.log(title);
+            var size = 'md';
+            var url = $(this).attr('href');
+            $("#commonModal .modal-title ").html(title);
+            $("#commonModal .modal-dialog").addClass('modal-' + size);
+            $.ajax({
+                url: url,
+                success: function(data) {
+                    $('#commonModal .body').html(data);
+                    $("#commonModal").modal('show');
+                    if ($(".d_week").length > 0) {
+                        $($(".d_week")).each(function(index, element) {
+                            var id = $(element).attr('id');
+
+                            (function() {
+                                const d_week = new Datepicker(document.querySelector('#' +
+                                    id), {
+                                    buttonClass: 'btn',
+                                    format: 'yyyy-mm-dd',
+                                });
+                            })();
+
+                        });
+                    }
+
+                },
+                error: function(data) {
+                    data = data.responseJSON;
+                    toastrs('Error', data.error, 'error')
+                }
+            });
+            // }
+        });
+    </script>
+
+
+            
+
+    <script src="https://demo.rajodiya.com/hrmgo-saas/js/cookie.notice.js"></script>
+    
+            <script type="text/javascript">
+            var defaults = {
+                'messageLocales': {
+                    /*'en': 'We use cookies to make sure you can have the best experience on our website. If you continue to use this site we assume that you will be happy with it.'*/
+                    'en': "We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it."
+                },
+                'buttonLocales': {
+                    'en': 'Ok'
+                },
+                'cookieNoticePosition': 'bottom',
+                'learnMoreLinkEnabled': false,
+                'learnMoreLinkHref': '/cookie-banner-information.html',
+                'learnMoreLinkText': {
+                    'it': 'Saperne di più',
+                    'en': 'Learn more',
+                    'de': 'Mehr erfahren',
+                    'fr': 'En savoir plus'
+                },
+                'buttonLocales': {
+                    'en': 'Ok'
+                },
+                'expiresIn': 30,
+                'buttonBgColor': '#d35400',
+                'buttonTextColor': '#fff',
+                'noticeBgColor': '#000000',
+                'noticeTextColor': '#fff',
+                'linkColor': '#009fdd'
+            };
+        </script>
+        <script src="https://demo.rajodiya.com/hrmgo-saas/js/cookie.notice.js"></script>
+      
+        <script type="text/javascript" src="https://demo.rajodiya.com/hrmgo-saas/js/html2pdf.bundle.min.js"></script>
+    <script src="https://demo.rajodiya.com/hrmgo-saas/assets/js/plugins/apexcharts.min.js"></script>
+    <script>
+        (function() {
+            var options = {
+                chart: {
+                    height: 250,
+                    type: 'bar',
+                    toolbar: {
+                        show: false,
+                    },
+                },
+                plotOptions: {
+                    bar: {
+                        horizontal: false,
+                        columnWidth: '25%',
+                        endingShape: 'rounded'
+                    },
+                },
+                dataLabels: {
+                    enabled: false
+                },
+                stroke: {
+                    width: 2,
+                    curve: 'smooth'
+                },
+
+                // series: [{"name":"Income","data":[0,0,0,0,0,0]},{"name":"Expense","data":[0,0,0,0,0,0]}],
+                series: [{"name":"Income","data":[100,90,80,50,90,40]},{"name":"Expense","data":[50,60,60,30,70,20]}],
+
+                xaxis: {
+                    categories: ["Jan 2023","Dec 2022","Nov 2022","Oct 2022","Sep 2022","Aug 2022"],
+                },
+                colors: ['#3ec9d6', '#FF3A6E'],
+                fill: {
+                    type: 'solid',
+                },
+                grid: {
+                    strokeDashArray: 4,
+                },
+                legend: {
+                    show: true,
+                    position: 'top',
+                    horizontalAlign: 'right',
+                },
+                markers: {
+                    size: 4,
+                    colors: ['#3ec9d6', '#FF3A6E', ],
+                    opacity: 0.9,
+                    strokeWidth: 2,
+                    hover: {
+                        size: 7,
+                    }
+                }
+            };
+            var chart = new ApexCharts(document.querySelector("#user-chart"), options);
+            chart.render();
+        })();
+
+
+        var filename = $('#filename').val();
+
+        function saveAsPDF() {
+            var element = document.getElementById('printableArea');
+            var opt = {
+                margin: 0.3,
+                filename: filename,
+                image: {
+                    type: 'jpeg',
+                    quality: 1
+                },
+                html2canvas: {
+                    scale: 4,
+                    dpi: 72,
+                    letterRendering: true
+                },
+                jsPDF: {
+                    unit: 'in',
+                    format: 'A2'
+                }
+            };
+            html2pdf().set(opt).from(element).save();
+        }
+    </script>
+        <script src="https://js.pusher.com/7.0.3/pusher.min.js"></script>
+<script >
+  // Enable pusher logging - don't include this in production
+  Pusher.logToConsole = true;
+
+  var pusher = new Pusher("71133ee6f4f8e5223ab1", {
+    encrypted: true,
+    cluster: "ap2",
+    authEndpoint: 'https://demo.rajodiya.com/hrmgo-saas/chats/chat/auth',
+    auth: {
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    }
+  });
+
+    // Bellow are all the methods/variables that using php to assign globally.
+    const allowedImages = ["png","jpg","jpeg","gif"] || [];
+    const allowedFiles = ["zip","rar","txt"] || [];
+    const getAllowedExtensions = [...allowedImages, ...allowedFiles];
+    const getMaxUploadSize = 157286400;
+</script>
+<script src="https://demo.rajodiya.com/hrmgo-saas/js/chatify/code.js"></script>
+<script>
+  // Messenger global variable - 0 by default
+  messenger = "";
+</script>
+
+
+</body>
+
+</html>
